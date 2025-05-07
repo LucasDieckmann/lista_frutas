@@ -1,0 +1,48 @@
+VENV
+python -m venv venv
+
+ativar VENV Windows
+.\venv\Scripts\activate
+
+
+
+| Método                       | Descrição                               |
+| ---------------------------- | --------------------------------------- |
+| `.pack()`                    | Gerenciador de layout simples           |
+| `.grid()`                    | Layout em forma de tabela               |
+| `.place()`                   | Posicionamento absoluto                 |
+| `.config()` / `.configure()` | Altera configurações do widget          |
+| `.bind()`                    | Liga eventos do teclado/mouse           |
+| `.destroy()`                 | Remove o widget                         |
+| `.get()`                     | Pega valor (ex: Entry, Text)            |
+| `.insert()`                  | Insere valor (ex: Entry, Text, Listbox) |
+| `.delete()`                  | Remove valor (ex: Entry, Text, Listbox) |
+| `.mainloop()`                | Inicia o loop da interface              |
+| `.after(ms, func)`           | Executa função após X milissegundos     |
+| `.focus()`                   | Dá foco a um widget                     |
+
+| Propriedade        | Descrição                     |
+| ------------------ | ----------------------------- |
+| `text`             | Texto a ser exibido           |
+| `command`          | Função a ser chamada          |
+| `width`, `height`  | Tamanho do widget             |
+| `bg`, `background` | Cor de fundo                  |
+| `fg`, `foreground` | Cor do texto                  |
+| `font`             | Fonte do texto                |
+| `image`            | Imagem a ser exibida          |
+| `state`            | Estado (`normal`, `disabled`) |
+| `padx`, `pady`     | Espaçamento interno           |
+| `relief`           | Estilo da borda               |
+| `anchor`           | Alinhamento interno           |
+
+| Evento              | Descrição                  |
+| ------------------- | -------------------------- |
+| `<Button-1>`        | Clique com botão esquerdo  |
+| `<Button-3>`        | Clique com botão direito   |
+| `<Double-Button-1>` | Duplo clique               |
+| `<Key>`             | Qualquer tecla pressionada |
+| `<Return>`          | Tecla Enter                |
+| `<Escape>`          | Tecla Esc                  |
+| `<Motion>`          | Movimento do mouse         |
+| `<Enter>`           | Mouse entrou no widget     |
+| `<Leave>`           | Mouse saiu do widget       |

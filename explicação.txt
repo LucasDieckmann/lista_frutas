@@ -1,0 +1,28 @@
+Onde postar:
+
+URL: https://encurtador.com.br/eNOPN
+
+Nome do arquivo: Seu_Nome.ipynb
+
+ 
+
+Enunciado: Cadastro de Itens em uma Lista
+
+Você vai criar um programa simples que cadastra nomes de frutas informadas pelo usuário.
+
+Objetivo do exercício
+
+Praticar os seguintes conceitos de forma isolada e didática:
+
+Uso do laço while
+Condicionais com if e else
+Armazenamento de dados em lista
+Validação de entrada (não aceitar strings vazias)
+Encerramento do loop com uma palavra-chave
+ O que o programa deve fazer:
+
+Criar uma lista vazia chamada frutas.
+Pedir ao usuário para digitar nomes de frutas até que ele digite "sair".
+Se o nome digitado for vazio (""), mostrar a mensagem: " Nome inválido. Tente novamente."
+Se o nome for válido, adicionar à lista.
+Ao final, exibir todas as frutas cadastradas.
